@@ -5,6 +5,6 @@
         public const string OpenId = "openid";
         public const string Profile = "profile";
 
-        public static string[] All { get; } = { OpenId, Profile };
+        internal static string[] All { get; } = { OpenId, Profile };
     }
 }

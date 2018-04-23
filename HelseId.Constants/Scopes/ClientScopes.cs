@@ -8,6 +8,6 @@
         public const string Kj = Prefix + "kj";
         // public const string StsConfigurationAdmin = Prefix + "sts_configuration_admin";
 
-        public static string[] All { get; } = { Dcr, Kj };
+        internal static string[] All { get; } = { Dcr, Kj };
     }
 }

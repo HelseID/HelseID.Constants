@@ -9,6 +9,6 @@ namespace HelseId.Constants.Scopes
 
         public const string HprNumber = Prefix + "/hpr_number";
 
-        public static string[] All { get; } = { HprNumber };
+        internal static string[] All { get; } = { HprNumber };
     }
 }

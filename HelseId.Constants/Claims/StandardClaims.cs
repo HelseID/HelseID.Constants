@@ -7,6 +7,6 @@
         public const string GivenName = "given_name";
         public const string MiddleName = "middle_name";
 
-        public static string[] All { get; } = { Name, FamilyName, GivenName, MiddleName };
+        internal static string[] All { get; } = { Name, FamilyName, GivenName, MiddleName };
     }
 }

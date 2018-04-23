@@ -11,6 +11,6 @@ namespace HelseId.Constants.Scopes
         public const string PidPseudonym = Pid + "_pseudonym";
         public const string SecurityLevel = Prefix + "security_level";
 
-        public static string[] All { get; } = { AssuranceLevel, Pid, PidPseudonym, SecurityLevel };
+        internal static string[] All { get; } = { AssuranceLevel, Pid, PidPseudonym, SecurityLevel };
     }
 }
