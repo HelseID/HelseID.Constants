@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>0.5.0</Version>
+    <Description>Provides a set of useful constants for HelseID. Includes authority endpoints, scopes, claims and extension grants.</Description>
+    <Copyright></Copyright>
+    <PackageLicenseUrl>MIT</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/HelseID/HelseID.Constants</RepositoryUrl>
+    <Company>Norsk Helsenett SF</Company>
   </PropertyGroup>
 
 </Project>
