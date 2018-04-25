@@ -14,7 +14,7 @@
 
         public const string Amr = Prefix + "amr";
 
-        internal static string[] All { get; } =
+        public static string[] All { get; } =
             {  ParentOrganizationNumber, ChildOrganizationNumber, CertificateExpiryDate, Kj, Amr };
     }
 }

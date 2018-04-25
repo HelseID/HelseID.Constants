@@ -6,6 +6,6 @@
 
         public const string HprNumber = Prefix + "hpr_number";
 
-        internal static string[] All { get; } = { HprNumber };
+        public static string[] All { get; } = { HprNumber };
     }
 }
