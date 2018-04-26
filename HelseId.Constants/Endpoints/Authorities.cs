@@ -1,4 +1,6 @@
-﻿namespace HelseId.Constants.Endpoints
+﻿using System.Collections.Generic;
+
+namespace HelseId.Constants.Endpoints
 {
     public static class Authorities
     {
@@ -6,5 +8,7 @@
         public const string Test = "https://helseid-sts.test.nhn.no";
         public const string Qa = "https://helseid-sts.qa.nhn.no";
         public const string Production = "https://helseid-sts.nhn.no";
+
+        public static List<string> All = new List<string>{Development, Test, Qa, Production};
     }
 }
