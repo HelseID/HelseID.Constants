@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Version>0.5.1</Version>
+    <Version>0.5.2</Version>
     <Description>Provides a set of useful constants for HelseID. Includes authority endpoints, scopes, claims and extension grants.</Description>
     <Copyright></Copyright>
     <PackageLicenseUrl>MIT</PackageLicenseUrl>
